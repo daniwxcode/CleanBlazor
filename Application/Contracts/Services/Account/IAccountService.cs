@@ -1,9 +1,9 @@
-﻿using System.Threading.Tasks;
-using Otr.Dccfe.Application.Interfaces.Common;
-using Otr.Dccfe.Application.Requests.Identity;
-using Otr.Dccfe.Shared.Wrapper;
+﻿using Application.Contracts.LifeTimes;
+using Application.Framework.Requests.Identity;
 
-namespace Otr.Dccfe.Application.Interfaces.Services.Account
+using Common.Wrapper;
+
+namespace Application.Contracts.Services.Account
 {
     public interface IAccountService : IService
     {
